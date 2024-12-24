@@ -11,11 +11,10 @@ const App = () => {
     { id: 104, name: "Water Bottle", category: "Accessories", price: 12.5 },
   ];
 
-  const title = "this is a header"; 
   return (
     <div>
-      <Header title = {title} />
-      <Table products={productList} />
+      <Header/>
+      <Table products={productList}/>
       <Footer />
     </div>
   );

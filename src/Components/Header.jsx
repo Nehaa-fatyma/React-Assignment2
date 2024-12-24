@@ -11,7 +11,7 @@ const Header = (props) => {
         <a href="about">About</a>
         <a href="contact">Contact</a>
       </nav>
-        <h2>{props.title}</h2>
+
     </header>
   );
 };
